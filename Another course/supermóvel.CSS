@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+h1 {
+    font-family:cursive;
+    font-size: 90px;
+    font-style: oblique;
+    color: rgba(32, 6, 2, 0.925);
+    text-align: center;
+}
+
+body {
+    background-image: url(imagens/fundo\ cool.jpg);
+    background-color: darkgrey;
+    background-size: cover;
+    background-position: top;
+}
+/* Formatando a Div interface*/
+div.interface{
+    box-shadow: 0px 0px 10px black;
+    width: 700px;
+    margin: 10px auto 10px auto;
+    background-color: #a09f9fd3;
+    padding: 20px 10px 10px 10px;
+    
+}
+header#cabeçalho{
+    border-bottom: 2px greenyellow solid;
+    
+}
+
+.box1 {
+    
+    background-color: rgba(0, 0, 0, .4)
+    width: cover;
+    height: 200px;
+}
+
+.box2 {
+    box-sizing: 1000px;
+    align-content: center;
+    image-resolution: cover;
+}
+
+.box3 {
+    box-sizing: 500px;
+
+}
+
+button {
+    size: 50px;
+    display: block;
+    color: chocolate;
+    appearance: initial;
+    align-self: start;
+    cursor: pointer;
+
+}
+
+.row1 {
+    height: 2px;
+    background-color: greenyellow;
+    width: cover;
+
+}
+
+.row2 {
+    background-color: black;
+    height: 2px;
+}
+
+.lin1 {}
+
+.link2 {}
+
+
+.link3 {
+    text-align: right;
+    align-content: right;
+    align-items: right;
+    align-self: link 3px;
+
+}
+/* Formatando foto de CEO Anderson Catenda*/
+figure.CEOSM{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    border: 1px solid black;
+    box-shadow: 2px 2px 6px black;
+}
+img.fotoCEO{
+    width: 300px;
+    height: 400px;
+}
+figure.CEOSM figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+    
+}
+figure.CEOSM:hover figcaption{
+    opacity: 1;
+}
+/*Formatação do menu*/
+nav#menu{
+    display: block;
+}
+nav#menu ul {
+    position: absolute;
+    list-style: none;
+    text-transform: uppercase;
+    top: 210px;
+    left: 710px;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: #c4c4c4;
+    padding: 5px;
+    margin: 2px;
+    transition: background-color 1s;
+    }
+nav#menu li:hover{
+    background-color: #606060;
+}
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+nav#menu a:hover{
+    color: white;
+    text-decoration: underline;
+}
