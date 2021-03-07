@@ -16,6 +16,31 @@
         console.log(Ladislau)
         console.log("Idade de Ladislau é " + Ladislau)
     </script>
+
+    <script>
+        var quebras = false;
+        function mudaLampada(tipo) {
+            if (tipo == 1) {
+                arquivo = "lampadas/acesa.jpg";
+            }
+            if (tipo == 2) {
+                arquivo = "lampadas/apagada.jpg";
+            }
+            if (tipo == 3) {
+                arquivo = "lampadas/quebrada.jpg";
+            }
+            if (!quebras) {
+                document.getElementById("luz").src = arquivo;
+                if (tipo == 3) {
+                    quebras = true;
+                }
+            }
+        }
+
+    </script>
+    <h1>Acenda a Lâmpada</h1>
+    <img src="lampadas/apagada.jpg" id="luz" onmousemove="mudaLampada(1)" onmouseout="mudaLampada(2)"
+        onclick="mudaLampada(3)">
 </body>
 
 </html>

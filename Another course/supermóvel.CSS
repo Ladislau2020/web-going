@@ -73,8 +73,32 @@ table#produtos {
 }
 table#produtos td{
     border: 1px solid black;
-    padding: 10px;
+    padding: 20px;
     color: white;
+}
+
+table#produtos td.ce{
+    text-align: center;
+    background-color: #6c6d6d5e;
+
+}
+
+table#produtos td.cd{
+    text-align: right;
+    color: aqua;
+}
+
+table#produtos caption{
+    color: #eeeded;
+    font-weight: bolder;
+    font-size: 20px;
+}
+table#produtos caption span{
+    display: block;
+    float: none;
+    font-size: 10px;
+    text-align: right;
+    margin-top: -20px;
 }
 
 .row1 {
