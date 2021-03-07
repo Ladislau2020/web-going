@@ -2,30 +2,36 @@
 
 h1 {
     font-family:cursive;
+    font-family:cursive;
     font-size: 90px;
     font-style: oblique;
     color: rgba(32, 6, 2, 0.925);
     text-align: center;
-}
+    }
 
 body {
-    background-image: url(imagens/fundo\ cool.jpg);
-    background-color: darkgrey;
+    /*background-image: url(imagens/fundo\ cool.jpg);*/
+    background-color: rgb(42, 86, 122);
     background-size: cover;
     background-position: top;
 }
 /* Formatando a Div interface*/
 div.interface{
     box-shadow: 0px 0px 10px black;
-    width: 700px;
+    width: 900px;
     margin: 10px auto 10px auto;
     background-color: #a09f9fd3;
     padding: 20px 10px 10px 10px;
+   
     
+
 }
 header#cabeçalho{
+    margin-top: -20px;
     border-bottom: 2px greenyellow solid;
-    
+    background-color: slategray;
+    background-image: url(imagens/cebolatomate.jpg.crdownload);
+        
 }
 
 .box1 {
@@ -56,6 +62,21 @@ button {
 
 }
 
+/*Tabelas*/
+table#produtos {
+    border: 1px solid black;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #797979;
+    
+}
+table#produtos td{
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+}
+
 .row1 {
     height: 2px;
     background-color: greenyellow;
@@ -68,18 +89,8 @@ button {
     height: 2px;
 }
 
-.lin1 {}
-
-.link2 {}
 
 
-.link3 {
-    text-align: right;
-    align-content: right;
-    align-items: right;
-    align-self: link 3px;
-
-}
 /* Formatando foto de CEO Anderson Catenda*/
 figure.CEOSM{
     width: fit-content;
@@ -116,8 +127,8 @@ nav#menu ul {
     position: absolute;
     list-style: none;
     text-transform: uppercase;
-    top: 210px;
-    left: 710px;
+    top: 200px;
+    left: 700px;
 }
 nav#menu li{
     display: inline-block;
@@ -137,3 +148,37 @@ nav#menu a:hover{
     color: white;
     text-decoration: underline;
 }
+footer{    
+    display:inline;
+    text-align: center;
+    
+}
+
+
+nav#footer a{
+    display: inline;
+        
+    
+
+}
+nav#footer a#link2{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav#footer a#link3{
+    color: black;
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+    
+nav#footer a#link2:hover{
+    text-decoration: underline;
+    color:white;
+}
+nav#footer a#link3:hover{
+    color:white;
+    text-decoration: underline;
+}
+    
