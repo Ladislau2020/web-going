@@ -33,6 +33,13 @@ header#cabeçalho{
     background-image: url(imagens/cebolatomate.jpg.crdownload);
         
 }
+img#icone{
+    position: absolute;
+    width: 150px;
+    margin-left: 1150px;
+    margin-top: -220px;
+
+}
 
 .box1 {
     
