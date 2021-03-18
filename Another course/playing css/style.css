@@ -1,4 +1,5 @@
 * {
+  background-color: azure;
 	box-sizing: border-box;
 	margin: 0px;
 	padding: 0px;
@@ -30,4 +31,19 @@
 	width: 200px;
   height: 200px;
   background: orange;
+}
+
+main {
+  background-color: cadetblue;
+  margin: 20px;
+}
+
+aside {
+  background-color: darkgoldenrod;
+  margin: 20px;
+}
+
+footer {
+  background-color: darkgrey;
+  margin: 20px;
 }
